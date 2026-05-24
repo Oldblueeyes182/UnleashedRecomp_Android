@@ -15,7 +15,7 @@ on:
           - linux
           - windows
         default: 'android'
-      game_url:
+      game_url: https://drive.google.com/file/d/1P6yReekZE57D8EnQk2D7Nv9IybBXymjm/view?usp=drive_link
         description: 'URL for game data (ISO/XEX/ZIP/7Z/RAR) - always required for compilation'
         required: true
         type: string

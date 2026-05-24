@@ -16,7 +16,7 @@ on:
           - windows
         default: 'android'
       game_url: 
-        description: https://drive.google.com/file/d/1P6yReekZE57D8EnQk2D7Nv9IybBXymjm/view?usp=drive_link
+        description: 'https://drive.google.com/file/d/10b19tGNhXYsrxkLE2O_jz-ebVSrnCt4h/view?usp=drive_link'
         required: true
         type: string
       update_url:

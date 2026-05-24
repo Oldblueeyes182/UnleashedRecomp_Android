@@ -16,7 +16,7 @@ on:
           - windows
         default: 'android'
       game_url: 
-        description: 'URL for game data (ISO/XEX/ZIP/7Z/RAR) - always required for compilation''
+        description: 'URL for game data (ISO/XEX/ZIP/7Z/RAR) - always required for compilation'
         required: true
         type: string
       update_url:

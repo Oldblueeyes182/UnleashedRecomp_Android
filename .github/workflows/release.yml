@@ -16,7 +16,7 @@ on:
           - windows
         default: 'android'
       game_url: 
-        description: 'https://drive.google.com/file/d/15lML8rQ7CtIKQ-Cizl0OpHRbMiyaDAfY/view?usp=drive_link'
+        description: 'https://archive.org/download/microsoft_xbox360_s_part2/Sonic%20Unleashed%20%28USA%29%20%28En%2CJa%2CFr%2CDe%2CEs%2CIt%29.zip'
         required: true
         type: string
       update_url:

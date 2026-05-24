@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       os:
-        description: 'android'
+        description: 'Target OS'
         required: true
         type: choice
         options:
@@ -16,7 +16,7 @@ on:
           - windows
         default: 'android'
       game_url: 
-        description: 'https://drive.google.com/file/d/10b19tGNhXYsrxkLE2O_jz-ebVSrnCt4h/view?usp=drive_link'
+        description: 'URL for game data (ISO/XEX/ZIP/7Z/RAR) - always required for compilation''
         required: true
         type: string
       update_url:
